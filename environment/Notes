@@ -1,0 +1,10 @@
+Resolving issue of sparse rewards:
+	(Medium - https://medium.com/@m.k.daaboul/dealing-with-sparse-reward-environments-38c0489c844d)
+	1. Use Curriculum learning to solve the sparse reward issue in AR use case. (https://lilianweng.github.io/lil-log/2020/01/29/curriculum-for-reinforcement-learning.html ----> good source)
+	2. Tweak reward function to give mid-level rewards
+	3. Can use GoalGAN to generate easier goals
+	4. Auxiliary tasks (mid-level tasks)
+
+RL SOTA algo implementations:
+1. https://github.com/DLR-RM/rl-baselines3-zoo
+2. https://github.com/DLR-RM/stable-baselines3
